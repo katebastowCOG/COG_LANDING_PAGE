@@ -1,0 +1,305 @@
+<style>
+    .breadcrumb {
+    display: none;
+    }
+    #header{
+    display: none;
+    }  
+    #main {
+    font-family: 'Figtree', sans-serif !important;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    }
+    .lp-container{
+    margin-bottom: 8vw;
+    }
+    @media screen and (max-width: 768px) {
+    .lp-container{
+    margin-bottom: 16vw;
+    }
+    }
+    .comp-copy {
+    margin: 3vw auto; 
+    text-align: center;
+    }
+    @media screen and (max-width: 768px) {
+    .comp-copy {
+    margin: 6vw auto;
+    }
+    }
+    p.comp-heading {
+    font-size: 2.125rem;
+    line-height: 2.625rem;
+    margin-bottom: 3vw;
+    color: #000000;
+    } 
+    @media screen and (max-width: 768px) {
+    p.comp-heading {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 5vw;
+    }
+    }
+    p.comp-text {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-bottom: 1vw;
+    color: #000000;
+    }
+    @media screen and (max-width: 768px) {
+    p.comp-text {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin-bottom: 2vw;
+    }
+    }
+    p.comp-terms {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-bottom: 1vw;
+    color: #000000;
+    }
+    p.comp-terms a {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-bottom: 1vw;
+    color: #000000;
+    }
+    @media screen and (max-width: 768px) {
+    p.comp-terms {
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    }
+    }
+    .cob-lp-cta-centered-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+    .cob-lp-cta-container button{
+    display: inline-block;
+    width: 10.938rem;
+    height: 2.813rem;
+    border: solid 2px #000000;
+    background-color: #ffffff;
+    border-radius: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #000000;
+    cursor: pointer;
+    }
+    .cob-lp-cta-container a:not(:first-child) {
+    position: relative;
+    margin-left: 1.875rem;
+    }
+    button{
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 2px;
+    background: 0 0;
+    line-height: 1;
+    }
+    /* VIDEO */
+    .video-lp-btw {
+    position: relative;
+    margin-bottom: 0;
+    line-height: 0;
+    }
+    .video-hover-artwork-lp-btw {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    }
+    .video-container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    }
+    .video-container-lp-btw > video {
+    width: 100%;
+    }
+    .video-container-lp-btw > a > video {
+    width: 100%;
+    }
+    .controls-btw-video {
+    z-index: 9;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    transition: opacity 0.2s;
+    }
+    .video-player-btw-video.playing .controls-btw-video {
+    opacity: 0.5;
+    }
+    .video-player-btw-video:hover .controls-btw-video {
+    opacity: 0.8;
+    }
+    .control-button-btw-video {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s;
+    }
+    .control-button-btw-video:hover {
+    opacity: 1;
+    }
+    .control-button-btw-video.play-button-desktop-btw-video {
+    height: 44px;
+    width: 44px;
+    margin-bottom: 2vw;
+    margin-left: 1.5vw;
+    }
+    @media screen and (max-width: 768px) {
+    .control-button-btw-video.play-button-mobile-btw-video {
+    height: 44px;
+    width: 44px;
+    margin-bottom: 4vw;
+    margin-left: 3vw;
+    }
+    }
+    .control-button-btw-video svg {
+    stroke: #fff;
+    fill: transparent;
+    }
+ </style>
+ <div class="lp-container">
+    <div class="row small-12 align-center video-lp-btw column">
+       <div class="row small-12 align-center collapse video-hover-artwork-lp-btw">
+          <div class="small-12 large-12 fit">
+             <img class="show-for-large" alt="Shop to Win 1 of 4 Jackets signed by Lady Gaga. Perks member exclusive." src="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_DT_01_OVERLAY.png?$staticlink$" />
+             <img class="hide-for-large" alt="Shop to Win 1 of 4 Jackets signed by Lady Gaga. Perks member exclusive." src="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_MB_01_OVERLAY.png?$staticlink$" />
+          </div>
+       </div>
+       <!-- DESKTOP VIDEO -->
+       <div class="large-12 show-for-large fit video-container-lp-btw video-player-desktop-btw-video border">
+          <div class="controls-btw-video">
+             <button aria-label="Pause Play Video" type="button" class="play-button-desktop-btw-video control-button-btw-video">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+             </button>
+          </div>
+          <video id="desktopVideoBtw" type="video/mp4" class="dt-video-btw-video show-for-large" preload autoplay loop playsinline muted poster="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_DT_01_STATIC.jpg?$staticlink$">
+             <source src="https://player.vimeo.com/progressive_redirect/playback/861543111/rendition/720p/file.mp4?loc=external&signature=7569749d1765dd49ce1454f29caff29e4df3fefa2cad257a4e58ca453da98316" type="video/mp4">
+          </video>
+       </div>
+       <!-- MOBILE VIDEO -->
+       <div class="small-12 hide-for-large fit video-container-lp-btw video-player-mobile-btw-video border">
+          <div class="controls-btw-video">
+             <button aria-label="Pause Play Video" type="button" class="play-button-mobile-btw-video control-button-btw-video">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+             </button>
+          </div>
+          <video id="mobileVideoBtw" type="video/mp4" class="mb-video-btw-video hide-for-large" preload autoplay loop playsinline muted poster="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_MB_01_STATIC.jpg?$staticlink$">
+             <source src="https://player.vimeo.com/progressive_redirect/playback/861537487/rendition/540p/file.mp4?loc=external&signature=b14b4e0ec15b8f4430c2ac7d19fe458517f62dd9460594a335d577afb56ae394" type="video/mp4">
+          </video>
+       </div>
+    </div>
+    <div class="row small-12 expanded align-center">
+       <div class="small-12 large-12 fit">
+          <img class="show-for-xlarge" alt="Born This Way Foundation x Cotton On Foundation." src="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_DT_02.jpg?$staticlink$">
+          <img class="hide-for-xlarge" alt="Born This Way Foundation x Cotton On Foundation." src="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_MB_02.jpg?$staticlink$">  
+       </div>
+    </div>
+    <!-- COMP COPY -->
+    <div class="comp-copy row small-12 align-center column">
+       <div class="small-11 large-10">
+          <p class="comp-heading">SHOP TO WIN 1 OF 4 JACKETS SIGNED BY LADY GAGA</p>
+          <p class="comp-text">To celebrate our campaign with Born This Way Foundation in support of youth mental health, <br class="show-for-large">we're giving 4 lucky winners the chance to win a denim jacket signed by Lady Gaga!</p>
+          <p class="comp-terms">T&amp;Cs apply. See <a onclick="onPromoClick('CompTerms','AU-BTWF-Comp-Landing-Page-1')" href="https://cottonon.com/on/demandware.static/-/Library-Sites-cog-megastore-shared-library/default/dwc1d63b44/group/terms-conditions/Cotton_On_Competition_Terms_and_Conditions_Born_This_Way_Shop_to_Win_AU.pdf" target="_blank">more</a> for details.</p>
+       </div>
+    </div>
+    <div class="row small-12 expanded align-center">
+       <div class="small-12 large-12 fit">
+          <img class="show-for-xlarge" alt="How to enter." src="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_DT_03.jpg?$staticlink$">
+          <img class="hide-for-xlarge" alt="How to enter." src="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_MB_03.jpg?$staticlink$">  
+       </div>
+    </div>
+    <!-- COMP COPY -->
+    <div class="comp-copy row small-12 align-center column">
+       <div class="small-11 large-10">
+          <p class="comp-text">1. Be a Perks member</p>
+          <p class="comp-text">Log in now or Join Perks below.<br>(It's the best rewards program ever.)</p>
+       </div>
+    </div>
+    <div class="small-12 large-12 cob-lp-cta-container cob-lp-cta-centered-container">
+        <a onclick="onPromoClick('Login-cta','AU-BTWF-Comp-Landing-Page-2')" href="https://cottonon.com/AU/sign-in/">
+          <button class="cob-lp-cta">Log In</button>
+        </a>
+        <a onclick="onPromoClick('Join-cta','AU-BTWF-Comp-Landing-Page-3')" href="$httpsUrl('Newsletter-Subscribe')$">
+            <button class="cob-lp-cta">Join Now</button>
+          </a>
+      </div>
+      <!-- COMP COPY -->
+    <div class="comp-copy row small-12 align-center column">
+        <div class="small-11 large-10">
+           <p class="comp-text">2. Shop to win</p>
+           <p class="comp-text">Purchase any Cotton On Foundation x Born This Way Foundation product from now until September 16 to go in the draw. 100% of proceeds support youth mental health.</p>
+        </div>
+     </div>
+     <div class="row small-12 expanded align-center">
+        <div class="small-12 large-12 fit">
+           <img class="show-for-xlarge" alt="1 shop = 1 entry. No minimum spend." src="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_DT_04.jpg?$staticlink$">
+           <img class="hide-for-xlarge" alt="1 shop = 1 entry. No minimum spend." src="group/C_659153_LANDING_PAGE_BTWF_COMP_UK_661339_0923_MB_04.jpg?$staticlink$">  
+        </div>
+     </div>
+     <div class="small-12 large-12 cob-lp-cta-container cob-lp-cta-centered-container">
+        <a onclick="onPromoClick('Shop-cta','AU-BTWF-Comp-Landing-Page-4')" href="$url('Search-Show','cgid','charity-gifts')$">
+          <button class="cob-lp-cta">Shop Now</button>
+        </a>
+     </div>
+ </div>
+ <!-- VIDEO PLAYER CONTROLS SCRIPT -->
+ <script>
+    const playBtw = `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+    </svg>`;
+    const pauseBtw = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>`;
+    
+    // DESKTOP VIDEO *********************************************************
+    
+    const playButtonDesktopBtw = document.querySelector(".play-button-desktop-btw-video");
+    const videoDesktopBtw = document.querySelector("#desktopVideoBtw");
+    const videoContainerDesktopBtw = document.querySelector(".video-player-desktop-btw-video");
+    
+    playButtonDesktopBtw.addEventListener("click", function () {
+      if (videoDesktopBtw.paused) {
+        videoDesktopBtw.play();
+        videoContainerDesktopBtw.classList.add("playing");
+        playButtonDesktopBtw.innerHTML = pauseBtw;
+      } else {
+        videoDesktopBtw.pause();
+        videoContainerDesktopBtw.classList.remove("playing");
+        playButtonDesktopBtw.innerHTML = playBtw;
+      }
+    });
+    
+    // MOBILE VIDEO *********************************************************
+    
+    const playButtonMobileBtw = document.querySelector(".play-button-mobile-btw-video");
+    const videoMobileBtw = document.querySelector("#mobileVideoBtw");
+    const videoContainerMobileBtw = document.querySelector(".video-player-mobile-btw-video");
+    
+    playButtonMobileBtw.addEventListener("click", function () {
+      if (videoMobileBtw.paused) {
+        videoMobileBtw.play();
+        videoContainerMobileBtw.classList.add("playing");
+        playButtonMobileBtw.innerHTML = pauseBtw;
+      } else {
+        videoMobileBtw.pause();
+        videoContainerMobileBtw.classList.remove("playing");
+        playButtonMobileBtw.innerHTML = playBtw;
+      }
+    });
+    
+ </script>
